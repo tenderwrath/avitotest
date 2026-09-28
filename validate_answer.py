@@ -1,10 +1,7 @@
-"""Проверка всех требований к answer.csv. Запуск: python validate_answer.py ..."""
-
 import argparse
 from pathlib import Path
 import re
 import pandas as pd
-
 
 def validate_answer(path, queries, items):
     answer = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8")
