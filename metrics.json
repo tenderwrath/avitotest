@@ -1,0 +1,53 @@
+{
+  "fit": {
+    "queries": 2400,
+    "candidate_recall": 0.968125,
+    "lexical_recall50": 0.8308333333333333,
+    "hybrid_recall50": 0.8591666666666666,
+    "model_recall50": 0.93125
+  },
+  "dev": {
+    "queries": 800,
+    "candidate_recall": 0.96125,
+    "lexical_recall50": 0.815625,
+    "hybrid_recall50": 0.85875,
+    "model_recall50": 0.9
+  },
+  "test": {
+    "queries": 800,
+    "candidate_recall": 0.970625,
+    "lexical_recall50": 0.83875,
+    "hybrid_recall50": 0.871875,
+    "model_recall50": 0.92
+  },
+  "iterations": 496,
+  "features": {
+    "title_bm25": 4.029985868346029,
+    "description_bm25": 10.902412234572965,
+    "params_bm25": 1.204951961371412,
+    "title_char_cosine": 1.842521173401462,
+    "expanded_title_cosine": 3.208634144511815,
+    "microcat_probability": 5.839077875125072,
+    "history_log": 0.23236530080444337,
+    "same_location": 0.09510410847031811,
+    "distance_log_km": 5.017143312829573,
+    "location_probability": 33.96531503245022,
+    "popularity_log": 2.016649650561007,
+    "price_log": 1.7329853181122368,
+    "rating": 1.6891192806879451,
+    "reviews_log": 2.347780553577837,
+    "phone_hidden": 0.09701979361653154,
+    "message_forbidden": 0.13964359966805504,
+    "category_equal": 0.027927360397182036,
+    "filters_bm25": 3.118510460702079,
+    "query_title_coverage": 1.5719662905153269,
+    "query_in_title": 0.21955680160784968,
+    "hybrid_score": 5.326747819406711,
+    "lexical_score": 1.4395612153798263,
+    "expansion_score": 5.208640605371686,
+    "nearest_train_query_similarity": 2.0581257992484874,
+    "query_words": 2.493227200416989,
+    "query_characters": 3.0404868216633827,
+    "filter_words": 1.1345404171835638
+  }
+}
